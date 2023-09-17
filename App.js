@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import {
-  StyleSheet,
-  TextInput,
-  Text,
-  View,
-  Button,
-  TouchableWithoutFeedback,
-  Keyboard,
-} from "react-native";
+import { StyleSheet, TextInput, Text, View, Button } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import { API_TOKEN } from "@env";
 
